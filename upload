@@ -1,0 +1,12 @@
+# GITHUB ZHU SHOU
+
+clear
+read -p 'Commit Message: ' message
+
+#er
+
+git init
+git remote add origin https://github.com/ginsudev/repo
+git add --all
+git commit -m "$message"
+git push origin master
