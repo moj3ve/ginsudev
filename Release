@@ -1,8 +1,12 @@
-Origin: Ginsu
-Label: Ginsu
+Origin: Ginsu Tweaks
+Label: Ginsu Tweaks
 Suite: stable
-Version: 1.0.2
+Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Ginsu's Tweak Library.
+Description: A collection of my free & useful tweaks
+
+SHA256:
+ 8ebfbac3b6ca7d1dd81e6d0699bbd5d90fa01e1cbd369165e2f2c31b3afb91a5 2926 Packages.bz2
+ ca241a737ff31ae5ec3884d3f6fa1e5816767a07722da6d2fb9972769f97bbb9 2772 Packages.xz
