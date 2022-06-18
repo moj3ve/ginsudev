@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>Analog</title>
+    <link rel="stylesheet" type="text/css" href="../../web/index.css">
+    <style>a, .tint, .table-btn:after {color: #55c6d3} .active {color: #55c6d3;border-bottom: 2px solid #55c6d3;}</style>
+    <script src="../../web/index.js"></script>
+    <meta name="description" content="A package by Ginsu for iOS 14.0 to 15.9.">
+    <meta property="og:title" content="Analog">
+    <meta property="og:description" content="A package by Ginsu for iOS 14.0 to 15.9.">
+    <meta property="og:image" content="../../assets/com.ginsu.analog/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Analog">
+    <meta name="twitter:description" content="A package by Ginsu for iOS 14.0 to 15.9.">
+    <meta name="twitter:image" content="https://repo.ginsu.dev/assets/com.ginsu.analog/banner.png">
+    <meta name="theme-color" content="#55c6d3">
+</head>
+<body>
+    <div class="body">
+        <div style="background-image: url(../../assets/com.ginsu.analog/banner.png)" class="banner_underlay"></div>
+        <div class="package package_head">
+            <img src="../../assets/com.ginsu.analog/icon.png">
+            <div class="package_info">
+                <h1 class="package_name">Analog</h1>
+                <p class="package_caption">Ginsu</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">
+            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 14.0 to 15.9.</p>
+            <br />
+            <div class="scroll_view"><img class="img_card" src="../../assets/com.ginsu.analog/screenshot/IMG_0129 2.PNG"><img class="img_card" src="../../assets/com.ginsu.analog/screenshot/IMG_3402.PNG"><img class="img_card" src="../../assets/com.ginsu.analog/screenshot/IMG_3399.PNG"><img class="img_card" src="../../assets/com.ginsu.analog/screenshot/IMG_3401.PNG"><img class="img_card" src="../../assets/com.ginsu.analog/screenshot/IMG_3406.PNG"></div>
+            <div class="md_view">
+                <p><p><em>A theme able analog clock for your Lock Screen!</em></p>
+<p><strong>Supports iOS 14+ (iPhone and iPad)</strong></p>
+<p>If you prefer classy analog clocks and are bored of iOS's default digital clock, then Analog for you! Analog adds a fully customisable analog clock to the Lock Screen with the following features:</p>
+<ul>
+<li>Clock face and clock hand theming (Themers can design their own clock themes and put them up for download somewhere).</li>
+<li>Customisable date complication.</li>
+<li>A lock status indicator for devices with Face-ID.</li>
+<li>A digital time complication.</li>
+<li>Wallpaper colour detection.</li>
+<li>Supports translations.</li>
+<li>And many more customisable options!</li>
+</ul>
+<h3>For Theme creators:</h3>
+<p><strong>Custom clock faces:</strong></p>
+<p>Custom clock faces should be 500x500px &quot;.png&quot; files named &quot;Face.png&quot;. You should make a folder with the name of your theme, then place your &quot;Face.png&quot; inside. You can then place the folder you created in this directory &quot;/Library/Application Support/Analog/Faces/&quot;.</p>
+<p><strong>Custom clock hands:</strong></p>
+<p>There is 4 main images needed to create a set of clock hands: &quot;Center.png, Seconds.png, Hour.png, Minute.png&quot;. The dimensions for the files are as follows:</p>
+<ul>
+<li>Center.png = 25x25px</li>
+<li>Seconds.png = 16x120px</li>
+<li>Hour.png = 16x101px</li>
+<li>Minute.png = 16x120px</li>
+</ul>
+<p>Similarly to custom clock faces, you need to create a folder with the name of your theme, then place those images inside the folder. After that, you can place the folder in the directory: &quot;/Library/Application Support/Analog/Hands/&quot;.</p>
+</p>
+                <br />
+            </div>
+            <h3>Contact</h3>
+            <div class="table">
+                <div class="cell">
+                    <div class="title">Twitter</div>
+                    <div class="text"><a href=https://twitter.com/ginsudev>Contact / Follow me on Twitter</a></div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Discord</div>
+                    <div class="text"><a href=https://discord.com/invite/BhdUyCbgkZ>Join the Discord</a></div>
+                    <br><br>
+                </div>
+            </div>
+            <h3>Information</h3>
+            <div class="table">
+                <div class="cell">
+                    <div class="title">Developer</div>
+                    <div class="text">Ginsu</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">1.1</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Compatibility</div>
+                    <div class="text">iOS 14.0 to 15.9</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Tweaks</div>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <div class="changelog">
+            <div class="changelog_entry">
+                <h4>1.1</h4>
+                <div class="md_view"><ul>
+<li>Transitioned to libgscommon to handle most preference-related stuff for better maintenance.</li>
+</ul>
+</div>
+            </div>
+        </div>
+        <div class="caption center footer">Ginsu Tweaks | Silica 1.2.2</div>
+    </div>
+</body>
+<script>compatible("14.0","15.9","iOS 14.0 to 15.9");externalize()</script>
+</html>
